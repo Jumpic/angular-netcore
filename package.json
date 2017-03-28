@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "dotnet run ng build",
+    "start": "dotnet run",
     "build": "ng build",
     "prod": "ng build --prod --aot",
     "test": "ng test",
