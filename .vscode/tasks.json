@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",    
+    "tasks": [
+        {
+            "isShellCommand": true,
+            "command": "npm",
+            "taskName": "watch",
+            "args": ["run", "watch"],
+            "isBuildCommand": true,
+            "showOutput": "always",
+            "suppressTaskName": true,
+            "promptOnClose": true
+        },
+        {
+            "command": "npm",
+            "taskName": "prod",
+            "args": ["run", "prod"],
+            "showOutput": "always",
+            "isShellCommand": true,
+            "promptOnClose": true
+        }                         
+    ]
+}
