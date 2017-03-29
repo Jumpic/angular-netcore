@@ -10,10 +10,16 @@ Run `dotnet run` to build the netcore project. Post build event - "ng build". Th
 
 <ul>
 <li>
-<b>Step 1</b> command <i>"dotnet run"</i> starting webserver".
+<b>Step 1</b> command <i>"dotnet restore"</i> restore packages.
 </li> 
 <li>
-<b>Step 2</b>&nbsp;<i>"Ctrl + Shift + B"</i> starting build task "ng build --watch" (Run build when files change).
+<b>Step 2</b> command <i>"dotnet run"</i> starting webserver.
+</li> 
+<li>
+<b>Step 3</b>&nbsp;<i>"Ctrl + Shift + B"</i> starting build task "ng build --watch" (Run build when files change). The app will automatically reload if you change any of the source files.
+</li>
+<li>
+<b>Step 4</b> Navigate to `http://localhost:5000/`.
 </li>
 </ul>
 
