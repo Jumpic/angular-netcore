@@ -6,7 +6,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `dotnet run` to build the netcore project. Post build event - "ng build". The build artifacts will be stored in the `wwwroot/` directory. Use the `-prod` flag for a production build.
 
-## Usage
+## Development
 
-<b>Ctrl + Shift + B</b> run build task "ng build --watch".
+<ul>
+<li>
+<b>Step 1</b> command <i>"dotnet run"</i> starting webserver".
+</li> 
+<li>
+<b>Step 2</b>&nbsp;<i>"Ctrl + Shift + B"</i> starting build task "ng build --watch" (Run build when files change).
+</li>
+</ul>
 
