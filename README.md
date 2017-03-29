@@ -1,4 +1,4 @@
-# angular-cli-netcore
+# angular-netcore
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0. Upgraded to angular v4.0.0
 
